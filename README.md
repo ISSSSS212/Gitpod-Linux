@@ -11,4 +11,8 @@ a linux distro in the browser
 7. run ./test.sh
 8. click the link that says "open in browser" for port 8000
 9. enter the password (i recommend setting it to something simple, like 123456 or something)
-10. profit!
+10. right click on the black background and open terminal
+11. type "xfdesktop"
+12. in another terminal tab (ctl+shift+T) type "xfce-panel"
+13. minimise the window
+14. profit!
