@@ -1,4 +1,5 @@
 #! /usr/bin/bash
+sudo add-apt-repository ppa:mozillateam/ppa -y
 sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm firefox openbox neofetch kitty -y
 echo "if you want to install a desktop, run sudo apt install lxqt or sudo apt install xfce4 xfce4-goodies"
 git clone https://github.com/novnc/noVNC.git
