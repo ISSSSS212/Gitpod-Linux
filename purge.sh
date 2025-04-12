@@ -4,6 +4,7 @@ case $response in
         echo "ok, but don't say I didn't warn ya. DELETING ALL FILES!!!"
         sudo apt remove tigervnc-standalone-server qemu-kvm firefox openbox lxqt xfce4 xfce4-goodies neofetch kitty -y
         sudo apt autoremove -y
+        rm -rf noVNC
         clear
         echo "Done!" ;;
     [nN])
