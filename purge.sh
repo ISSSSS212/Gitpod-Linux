@@ -2,6 +2,7 @@ read -p "Are you SURE you want to continue? All files and dependencies for the V
 case $response in 
     [Yy])
         echo "ok, but don't say I didn't warn ya. DELETING ALL FILES!!!"
+        vncserver --kill
         sudo apt remove tigervnc-standalone-server qemu-kvm firefox openbox lxqt xfce4 xfce4-goodies neofetch kitty -y
         sudo apt autoremove -y
         rm -rf noVNC
