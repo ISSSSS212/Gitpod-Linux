@@ -10,7 +10,6 @@ Pin-Priority: -1
 ' | sudo tee /etc/apt/preferences.d/mozilla-firefox
 sudo add-apt-repository ppa:mozillateam/ppa -y
 sudo apt update && sudo apt install tigervnc-standalone-server qemu-kvm qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manager firefox openbox neofetch kitty -y
-
 git clone https://github.com/novnc/noVNC.git
 cd noVNC
 vncserver -SecurityTypes None -rfbport 5080 
