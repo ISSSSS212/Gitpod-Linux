@@ -3,11 +3,11 @@ check_installed() {
     required_applications=( "firefox" "openbox" "tigervnc-standalone-server")
 }
 if command -v sudo vncserver -SecurityTypes none -xstartup "openbox" -rfbport 5080 &> /dev/null; then
-        command -v firefox &> /dev/null;
+        end;
 else ./repair.sh
 fi
 if command -v firefox &> /dev/null; then
-    command -v openbox &> /dev/null;
+    end;
 else ./repair.sh
 fi 
 if command -v ./utils/novnc_proxy &> /dev/null; then
